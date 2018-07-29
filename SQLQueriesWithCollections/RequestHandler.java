@@ -1,6 +1,7 @@
 package SQLQueriesWithCollections;
 
 import java.util.HashMap;
+import java.util.Set;
 import java.util.Map;
 
 public class RequestHandler {
@@ -34,9 +35,11 @@ public class RequestHandler {
 	// Select employeeName from Employee;
 	void displayEmployeeName() {
 		System.out.println("The employees are");
-		for (Map.Entry<String, Employee> entry : employeeHashMap.entrySet()) {
-			System.out.println(entry.getKey());
-		}
+		Set<String> keys = employeeHashMap.keySet();
+		System.out.println(keys);
+		//for (Map.Entry<String, Employee> entry : employeeHashMap.entrySet()) {
+	        //	System.out.println(entry.getKey());
+		//}
 
 	}
 }
