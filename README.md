@@ -1,2 +1,2 @@
-# CollectionExample2
-SQL Queries related with Collections
+# Collections-SQLQueries
+Collections related with SQL Queries 
